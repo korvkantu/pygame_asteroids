@@ -33,7 +33,7 @@ def main():
         player.draw(screen)
         pygame.display.flip()
 
-        dt = 1000 / clock.tick(60)
+        dt = clock.tick(60) / 1000
         
 
     pygame.quit()
